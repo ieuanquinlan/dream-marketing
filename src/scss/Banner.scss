@@ -1,0 +1,46 @@
+.banner {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-y: hidden;
+    padding-top: 10vh;
+    h1 {
+        color: white;
+        z-index: 99;
+        width: 90vw;
+        line-height: 1.5em;
+    }
+}
+
+.banner-overlay {
+    display: block;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width:100%;
+    background: rgba(0, 0, 0, 0.8);
+    transition: opacity 500ms;
+    opacity: 1;
+    visibility: visible;
+    position: absolute;
+    max-height: 600px;
+}
+
+@media screen and (min-width: 1025px) {
+    .banner {
+        min-height: 800px;
+        h1 {
+        font-size: 3.5em;
+        width: 70vw;
+        }
+    }
+    .banner-overlay {
+        min-height: 800px;
+    }
+}
