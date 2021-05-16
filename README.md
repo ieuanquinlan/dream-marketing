@@ -1,6 +1,8 @@
-# Getting Started with Create React App
+# Dream Marketing
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+A simple Create-React-App application 
 
 ## Available Scripts
 
